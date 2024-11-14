@@ -11,11 +11,11 @@ class Node:
 class LinkedList:
     def __init__(self):
         """Initialize an empty linked list."""
-        self.head = None
+        self._head = None
 
     def get_head(self):
         """Return the node's head of the linked list."""
-        return self.head
+        return self._head
 
     def rec_add(self, a_node, data):
         """Recursively add a node to the linked list."""
