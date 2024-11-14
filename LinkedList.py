@@ -55,7 +55,7 @@ class LinkedList:
             return False
         if a_node.data == data:
             return True
-        return self.rec_contains(self._head, data)
+        return self.rec_contains(a_node.next, data)
 
     def contains(self, data):
         """Check if the linked list is contained in the specified data."""
